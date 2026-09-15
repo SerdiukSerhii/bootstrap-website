@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
 
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <title>Мій Bootstrap сайт</title>
   </head>
 
@@ -40,56 +41,101 @@
     </header>
 
     <main class="flex-grow-1">
-      <div class="container text-center py-5">
-        <h1 class="display-4">
-          Привіт! Я роблю сайти за допомогою Bootstrap 🚀
-        </h1>
+      <section class="py-4">
+        <div class="container text-center">
+          <h1 class="display-4">
+            Привіт! Я роблю сайти за допомогою Bootstrap 🚀
+          </h1>
 
-        <p class="lead">
-          Bootstrap допомагає створювати красиві та адаптивні сайти.
-        </p>
+          <p class="lead">
+            Bootstrap допомагає створювати красиві та адаптивні сайти.
+          </p>
 
-        <button class="btn btn-success btn-lg">Дізнатися більше</button>
-      </div>
+          <button class="btn btn-success btn-lg">Дізнатися більше</button>
+        </div>
+      </section>
 
-      <div class="container mb-5">
-        <h2 class="text-center mb-4">Наші переваги</h2>
+      <section class="py-4">
+        <div class="container mb-5">
+          <h2 class="text-center mb-4">Наші переваги</h2>
 
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card text-center h-100">
-              <div class="card-body">
-                <h3 class="card-title">⚡ Швидко</h3>
-                <p class="card-text">
-                  Створюй сайти швидше завдяки готовим компонентам.
-                </p>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card text-center h-100">
+                <div class="card-body">
+                  <h3 class="card-title">⚡ Швидко</h3>
+                  <p class="card-text">
+                    Створюй сайти швидше завдяки готовим компонентам.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card text-center h-100">
-              <div class="card-body">
-                <h3 class="card-title">🎨 Красиво</h3>
-                <p class="card-text">
-                  Використовуй готові стилі та компоненти.
-                </p>
+            <div class="col-md-4 mb-3">
+              <div class="card text-center h-100">
+                <div class="card-body">
+                  <h3 class="card-title">🎨 Красиво</h3>
+                  <p class="card-text">
+                    Використовуй готові стилі та компоненти.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-3">
-            <div class="card text-center h-100">
-              <div class="card-body">
-                <h3 class="card-title">📱 Адаптивно</h3>
-                <p class="card-text">
-                  Сайт буде добре виглядати на телефоні та комп'ютері.
-                </p>
+            <div class="col-md-4 mb-3">
+              <div class="card text-center h-100">
+                <div class="card-body">
+                  <h3 class="card-title">📱 Адаптивно</h3>
+                  <p class="card-text">
+                    Сайт буде добре виглядати на телефоні та комп'ютері.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="py-4">
+        <div class="container">
+          <h2 class="text-center mb-4">Зв'яжіться з нами</h2>
+
+          <div class="col-md-8 col-lg-6 mx-auto">
+            <form class="bg-body-secondary border rounded p-4">
+              <label for="name" class="form-label">Ім'я</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="form-control mb-3"
+              />
+
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="form-control mb-3"
+              />
+
+              <label for="message" class="form-label">Повідомлення</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control mb-3"
+              ></textarea>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary px-5">
+                  Надіслати
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-dark py-4">
