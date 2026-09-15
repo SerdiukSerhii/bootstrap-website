@@ -48,6 +48,5 @@ Open the project in VS Code and run index.html using Live Server.
 ## 👨‍💻 Author
 
 **Serhii Serdiuk**
-Frontend Developer
 
 GitHub: [SerdiukSerhii](https://github.com/SerdiukSerhii)
